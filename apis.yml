@@ -1,19 +1,52 @@
 aid: food-market-hub
 name: Food Market Hub
-description: Food Market Hub is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Food Market Hub is a cloud-based procurement, inventory, and supply-chain
+  management platform for food-and-beverage businesses, founded in Malaysia and
+  headquartered in Petaling Jaya, Selangor. It automates back-end operations for
+  restaurants, cafes, and central kitchens — connecting F&B outlets with their
+  suppliers and central kitchens to handle purchase-order creation, smart
+  ordering, inventory tracking, food-cost and wastage control, supplier
+  management, and real-time reporting. The platform serves brands such as KFC,
+  Pizza Hut, Salad Atelier, and Kenny Hills alongside thousands of independent
+  restaurants across Southeast Asia (Malaysia, Indonesia, and China), and is
+  delivered through web and iOS/Android mobile apps. Food Market Hub is a 500
+  Global portfolio company. As of this profile the company exposes no public
+  developer API, developer portal, or API documentation; integrations
+  (including POS sales-data connections) are handled directly by the company.
 url: https://raw.githubusercontent.com/api-evangelist/food-market-hub/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/63280e66165b79e6af275cae/633156197c78b521f118a5be_fmh_logo_square_256.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-availability: none-public
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Food and Beverage
+- Restaurants
+- Supply Chain
+- Procurement
+- Inventory Management
+- Hospitality
+- SaaS
+- Southeast Asia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/food-market-hub-domain-security.yml
 - type: Website
-  url: https://foodmarkethub.com
+  url: https://www.foodmarkethub.com/
+- type: Blog
+  url: https://www.foodmarkethub.com/blog
+- type: Pricing
+  url: https://www.foodmarkethub.com/pricing
+- type: SignUp
+  url: https://web.foodmarkethub.com/login
+- type: Login
+  url: https://web.foodmarkethub.com/login
+- type: Support
+  url: https://www.foodmarkethub.com/contact
+- type: TermsOfService
+  url: https://www.foodmarkethub.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.foodmarkethub.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
